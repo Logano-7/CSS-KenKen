@@ -2,7 +2,6 @@
   html {
     font-size: 16px;
   }
-
 }
 
 * {
@@ -34,6 +33,9 @@ body {
   font-size: 2rem;
   background-color: white;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #box3, #box7, #box10, #box11, #box12, #box15 {
@@ -46,8 +48,8 @@ body {
 
 .prompt {
   position: absolute;
-  top: 0%;
-  left: 0%;
+  top: 0;
+  left: 0;
 }
 
 .answer {
@@ -60,4 +62,3 @@ body {
   border: none;
   font-size: 2rem;
 }
-
